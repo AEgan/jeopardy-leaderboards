@@ -8,12 +8,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.set('views', 'app/views');
 app.set('view engine', 'ejs');
 
-var dbString = process.env.DB_STRING || "localhost/development";
-var db = 'mongodb://' + dbString;
-mongoose.connect(db);
+var dbString = process.env.MONGOLAB_URI || "mongodb://localhost/development";
+mongoose.connect(dbString);
 var db = mongoose.connection;
 db.on('error', function () {
-  throw new Error('unable to connect to database at ' + db);
+  throw new Error('unable to connect to database at ' + dbString);
 });
 
 var modelsPath = __dirname + '/app/models';
