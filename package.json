@@ -1,0 +1,24 @@
+{
+  "name": "jeopardy",
+  "version": "0.0.0",
+  "description": "Jeopardy companion app leaderboards",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:AEgan/jeopardy-leaderboards.git"
+  },
+  "keywords": [
+    "jeopardy"
+  ],
+  "author": "Alex Egan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AEgan/jeopardy-leaderboards/issues"
+  },
+  "dependencies": {
+    "express": "~4.8.7"
+  }
+}
