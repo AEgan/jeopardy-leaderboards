@@ -1,0 +1,44 @@
+html {
+	background-color: #0B0B61;
+	background: url("images/jeopardy.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#mainContent {
+	width: 960px;
+	background-color: #FFF;
+	margin: 0px auto;
+	border-radius: 10px;
+	background-image: url("images/background.jpg");
+	box-shadow: 2px 2px 2px #0B0B61;
+}
+hr {
+	color: #B18904;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-width: 2px;
+}
+
+#title {
+	font-size: 35px;
+	color: #0B0B61;
+	padding: 15px;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 25px;
+}
+
+table {
+	padding: 15px;
+	margin-left: 370px;
+}
+table tr td{
+	width: 100px;
+	color: #0B0B61;
+}
+#heading {
+	font-size: 24px;
+}
