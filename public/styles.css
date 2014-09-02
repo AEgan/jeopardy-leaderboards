@@ -1,6 +1,6 @@
 html {
 	background-color: #0B0B61;
-	background: url("images/jeopardy.jpg") no-repeat center center fixed;
+	background: url("jeopardy.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -12,7 +12,7 @@ html {
 	background-color: #FFF;
 	margin: 0px auto;
 	border-radius: 10px;
-	background-image: url("images/background.jpg");
+	background-image: url("background.jpg");
 	box-shadow: 2px 2px 2px #0B0B61;
 }
 hr {

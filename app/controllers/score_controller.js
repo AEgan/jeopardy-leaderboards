@@ -13,7 +13,7 @@ exports.post = function(req, res) {
       console.log('error');
       return res.send('error');
     } else {
-      return res.send('here');
+      return res.send(JSON.stringify(created_obj));
     }
   });
 }

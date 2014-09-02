@@ -7,7 +7,7 @@
 	<body>
 		<div id="mainContent">
 			<div id="title">
-				Jeopardy Leaderboard	
+				Jeopardy Leaderboard
 			</div>
 			<hr>
 			<div id="scores">
@@ -18,10 +18,12 @@
 					</tr>
 
 					<!-- Loop for displaying scores here -->
-					<tr>
-						<td>John Doe</td>
-						<td>$22,000</td>
-					</tr>
+          <% for(var i = 0; i < scores.length; i++) { %>
+  					<tr>
+  						<td><%= scores[i].name %></td>
+  						<td>$<%= scores[i].score %></td>
+  					</tr>
+          <% } %>
 					<!-- end loop -->
 
 				</table>
